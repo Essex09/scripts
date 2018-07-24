@@ -32,6 +32,7 @@ sleep .5;
 
 ###################
 # From @killswitch-GUI
+# Full port scan
 ###################
 nmap -Pn -sS -p- -sV --min-hostgroup 255 --min-rtt-timeout 25ms --max-rtt-timeout 100ms --max-retries 1 --max-scan-delay 0 --min-rate 1000 -oA $newdir/scans/fullport -vvv --open $
 sleep 1;
