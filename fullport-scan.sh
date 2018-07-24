@@ -7,7 +7,7 @@ red='\033[0;31m'
 nc='\033[0m' # No Color
 
 if [ $# -ne 2 ]; then
-    echo -e "{red}Usage: $0 [IP Address] [Directory] (e.g., /home)${nc}"
+    echo -e "${red}Usage: $0 [IP Address] [Directory] (e.g., /home)${nc}"
     exit 1
 fi
 
