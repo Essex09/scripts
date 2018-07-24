@@ -28,7 +28,7 @@ fi
 sleep 1;
 
 ###################
-# Full TCP scan with Nmap
+# Scan with Nmap
 # Nmap commands from @killswitch-GUI
 ###################
 
