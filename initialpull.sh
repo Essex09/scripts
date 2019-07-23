@@ -1,6 +1,6 @@
 #!/bin/bash
 
-dir=/root/scripts
+dir=/opt/scripts
 
 if [ -d $dir ] # Check if directory already exists
     then
