@@ -8,9 +8,9 @@ if [ -d $dir ] # Check if directory already exists
     echo -e "# $dir directory already exists #"
     echo -e "#################################"
 else
-    echo -e "#########################"
+    echo -e "#################################"
     echo -e "# Making $dir directory #"
-    echo -e "#########################"
+    echo -e "#################################"
     mkdir -p $dir && cd $dir
 fi
 sleep 1;
