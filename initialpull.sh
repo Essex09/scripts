@@ -16,6 +16,7 @@ fi
 sleep 1;
 
 # Clone repos
+echo -e "\n"
 echo -e "#################"
 echo -e "# Cloning Repos #"
 echo -e "#################"
