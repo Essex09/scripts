@@ -7,11 +7,13 @@ if [ -d $dir ] # Check if directory already exists
     echo -e "#################################"
     echo -e "# $dir directory already exists #"
     echo -e "#################################"
+    ls -alh $dir
 else
     echo -e "#################################"
     echo -e "# Making $dir directory #"
     echo -e "#################################"
     mkdir -p $dir && cd $dir
+    ls -alh $dir
 fi
 sleep 1;
 
